@@ -73,32 +73,34 @@ Javascript
 
 Parte teórica
 
- 1. Pregunta: ¿Qué es JavaScript? 
+1. Pregunta: ¿Qué es JavaScript? 
 
 Es un lenguaje de programación utilizado en desarrollo de sitios web para lograr mayor dinamismo en el navegador web.
-
 
 2. Pregunta: ¿Cuál es la diferencia entre "null" y "undefined" en JavaScript?
 
 la diferencia principal es que cuando alguna variable  está null es que tiene valor definido nulo y exuste y cuando esta undifinded es que no existe del todo.
 
- 3. Pregunta: ¿Cómo se declara una variable en JavaScript?
+3. Pregunta: ¿Cómo se declara una variable en JavaScript?
 
 La manera de declarar una variable es mediante la estructura:
 
 var nombredevariable;
-Var nlmbredevariable=valor;
- 
+var nombredevariable = valor;
 
- 4. Pregunta: ¿Qué es una función en JavaScript? 
+let nombredevariable;
+let nombredevariable = valor;
+
+const nombredevariable;
+const nombredevariable = valor;
+
+4. Pregunta: ¿Qué es una función en JavaScript? 
 
 Una función es una pieza de código que es llamado para cumplir un función especifica que recibe unos parámetros y retorna un resultado después de ser llamada.
 
 5. Pregunta: ¿Cuál es la diferencia entre "==" y "===" en JavaScript? 
 
 La diferencia de los operadores es que el == compara sin necesidad de verificar el tipo de dato y el === realiza una comparación estricta y si hay diferencia en tipo de dato retornará una comparación falsa
-
-
 
 6. Pregunta: ¿Qué es el DOM (Document Object Model) en JavaScript?
 
