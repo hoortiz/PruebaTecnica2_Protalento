@@ -36,7 +36,7 @@ display: flex;
 justify-content: center; 
 }
 
-	8. Encuentra y corrige los errores
+8. Encuentra y corrige los errores
 
 function maxNum (n1, n2){
 	 if (n1>n2){
@@ -119,7 +119,17 @@ return resultadonumero;
 }
 
 Ejercicio 4: Escribe una función que tome un array de strings como parámetro y devuelva un nuevo array con las mismas palabras, pero ordenadas alfabéticamente de forma ascendente.
-// Ejemplo:
-// ordenarPalabras(["manzana", "banana", "pera", "uva"]) => ["banana", "manzana", "pera",
-"uva"]
-¿Qué realiza el siguiente código JavaScript? Elige la respuesta
+
+function ordenarstrings(stringaordenar)
+{
+	const ordenado = stringaordenar.sort(function(a, b){
+    if(a.name < b.name) { return -1; }
+    if(a.name > b.name) { return 1; }
+    return 0;});
+    
+    return ordenado;
+}
+
+¿Qué realiza el siguiente código JavaScript? 
+
+Va a realizar una linea roja dentro del canvas.
