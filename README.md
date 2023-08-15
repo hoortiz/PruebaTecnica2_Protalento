@@ -133,3 +133,39 @@ function ordenarstrings(stringaordenar)
 ¿Qué realiza el siguiente código JavaScript? 
 
 Va a realizar una linea roja dentro del canvas.
+
+¿Cual de las siguientes líneas de código es la correcta en HTML5?
+
+
+¿Qué haces cuando al ejecutar código tienes un error y no das con la causa? 
+
+Reviso el codigo en el IDE y utilizo el debbuger del navegador para validar que los valores y lo que halla desarrollado este correcta, para asi lograr encontrar donde es que no esta funcionando el codigo.
+
+Ejercicio 1: Convertir el siguiente modelo ER a uno relacional:
+
+
+Responde las siguientes preguntas:
+a) ¿Qué es una clave primaria y cuál es su propósito en una base de datos?
+
+EL proposito de una clave primaria es tener un identificador unico por cada tupla en la tabla.
+
+b)¿Cuál es la diferencia entre una clave primaria y una clave foránea?
+
+La diferencia entre la llave primaria y la llave foranea es que la clave primaria identifica la tupla en la tabla en la que me encuentro y la llave foranea identifica el valor que le corresponde a la columna en otra tabla y debera estar consignada en la otra tabla.
+
+c) ¿Cómo se realiza una consulta SELECT en SQL?
+
+Select columna1,columna2,columna3,etc from tabla where 'condicional';
+
+d)¿Cuál es la diferencia entre una relación uno a uno y una relación uno a muchos en el modelo ER?
+
+La diferencia es que la relacion de la tabla uno con tabla dos de uno a uno es que solo existe una tupla en la tabla uno por cada tupla de la tabla dos, y la relacion uno a muchos es que la tupla de la tabla uno tiene muchos referidos de la tabla dos
+
+e) ¿Qué es la cardinalidad en el contexto de las relaciones en el modelo ER?
+
+Es el sentido en el que los datos tienen precedencia.
+
+f) ¿Cuáles son los 3 lenguajes básicos existentes en el contexto de base de datos, dependiendo de su función?
+
+Lenguaje de control de datos, lenguaje de definición de datos, lenguaje de manipulación de datos, 
+
