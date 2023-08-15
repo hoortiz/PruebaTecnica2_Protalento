@@ -105,3 +105,21 @@ La diferencia de los operadores es que el == compara sin necesidad de verificar 
 6. Pregunta: ¿Qué es el DOM (Document Object Model) en JavaScript?
 
 Es un modelo utilizado para los documentos html qué obliga a respetar las reglas del código para que se puedan manipular como archivos xml. También podemos ver el diseño como una manera de ver en forma de árbol los objetos y mejorar su administración.
+
+
+Parte Práctica
+Ejercicio 3: Desarrolla una función que tome un número entero positivo como parámetro y devuelva el factorial de ese número.
+
+function factorial(numero){
+let resultadonumero = 1;
+	for(i=1; i<=numero; i++){
+		resultadonumero = resultadonumero * i;
+	}
+return resultadonumero;
+}
+
+Ejercicio 4: Escribe una función que tome un array de strings como parámetro y devuelva un nuevo array con las mismas palabras, pero ordenadas alfabéticamente de forma ascendente.
+// Ejemplo:
+// ordenarPalabras(["manzana", "banana", "pera", "uva"]) => ["banana", "manzana", "pera",
+"uva"]
+¿Qué realiza el siguiente código JavaScript? Elige la respuesta
